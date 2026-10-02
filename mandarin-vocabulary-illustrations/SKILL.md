@@ -26,7 +26,7 @@ When the teacher invokes this skill with only a request such as `請使用 $mand
 生詞來源：(可直接列出生詞，或上傳課本詞彙表截圖給我)
 插畫風格：(請由以下15種插畫風格中挑一個，或者直接告訴我您想要的風格)
 每批圖片版本數：(1～4)
-圖庫根目錄位置：(例如：D:\(自訂英文名稱)_Agent\華語詞彙圖庫)
+圖庫根目錄位置：(請填自己電腦上的實際位置；Windows 例如：D:\(自訂英文名稱)_Agent\華語詞彙圖庫；Mac 例如：~/(自訂英文名稱)_Agent/華語詞彙圖庫)
 ```
 
 Display this complete table in the same opening reply, before waiting for the teacher's choice:
@@ -49,7 +49,7 @@ Display this complete table in the same opening reply, before waiting for the te
 | 14 | 數位卡通插畫 | 線條乾淨、表情自然、細節適量的數位卡通插畫風格 (clean digital cartoon illustration) |
 | 15 | 簡化寫實數位插畫 | 接近真實比例但去除複雜背景與細節的數位插畫風格 (simplified realistic digital illustration) |
 
-The teacher may answer with a style number, style name, the full description, or a custom style. Accept an integer from 1 through 4 for `每批圖片版本數`. The course name can combine book and lesson notation with a topic, for example `B1L3 買生日禮物`. Use the teacher-supplied `圖庫根目錄位置` for both new and existing libraries. The example path is a placeholder, not a literal folder to create. If this field is missing, ask for the actual path; do not substitute a path based on the current user or ask separately whether this is their first task.
+The teacher may answer with a style number, style name, the full description, or a custom style. Accept an integer from 1 through 4 for `每批圖片版本數`. The course name can combine book and lesson notation with a topic, for example `B1L3 買生日禮物`. Use the teacher-supplied `圖庫根目錄位置` for both new and existing libraries. The Windows and Mac example paths are placeholders, not literal folders to create. Accept a path appropriate to the teacher's operating system; on Mac, `~` refers to the teacher's home directory. If this field is missing, ask for the actual path; do not substitute a path based on the current user or ask separately whether this is their first task.
 
 ## Vocabulary Intake and Classification
 
